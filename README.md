@@ -1,77 +1,40 @@
+# Java Programming Repository
 
-# WEEK 1
+Welcome to the Java Programming Repository! This repository contains a collection of Java programs, organized by week, focusing on various advanced topics in Java. The programs are designed to demonstrate key concepts, techniques, and best practices in Java programming.
 
-## Overview
+## Repository Structure
 
-This repository contains multiple Java projects designed to demonstrate different aspects of programming, including inventory management, search algorithms, sorting, employee management, and task management systems. The projects also explore recursive algorithms for financial forecasting in week 1.
+### Weekly Updates
 
-## Projects Included
+The repository is organized into weekly uploads, with each week containing Java programs that cover specific advanced topics. The structure is as follows:
 
-1. **Inventory Management System**
-   - **Description**: Manages product inventory with functionalities to add, update, delete, display, and sort products.
-   - **Key Classes**:
-     - `Product`: Represents individual products.
-     - `Inventory`: Manages a collection of products, supporting CRUD operations and sorting.
-   - **Algorithms**: Bubble Sort and Quick Sort for product sorting.
+- **Week 1**: Design Patterns and Principle & Data Structures and Algorithms
+- **Week 2**: Spring Core and Maven & PL/SQL Programming
+- **Week 3**: Spring Data JPA with Spring Boot, Hibernate
+- **Week 4 & 5**: Spring REST using Spring Boot 3
 
-2. **E-commerce Platform Search Function**
-   - **Description**: Implements search functionality for an e-commerce platform using linear and binary search algorithms.
-   - **Key Classes**:
-     - `Book`: Represents book information with attributes like `bookId`, `title`, and `author`.
-     - `BookSearchSystem`: Handles search operations (linear and binary search) and user interaction.
-   - **Algorithms**: Linear Search and Binary Search for finding books.
 
-3. **Order Sorting System**
-   - **Description**: Manages customer orders and sorts them by total price using Bubble Sort and Quick Sort algorithms.
-   - **Key Classes**:
-     - `Order`: Represents individual orders with attributes like `orderId`, `customerName`, and `totalPrice`.
-     - `OrderManagementSystem`: Handles order management and sorting operations.
-   - **Algorithms**: Bubble Sort and Quick Sort for sorting orders by price.
+## How to Use
 
-4. **Employee Management System**
-   - **Description**: Manages employee records with functionalities to add, search, traverse, and delete employees.
-   - **Key Classes**:
-     - `Employee`: Represents employee information with attributes like `employeeId`, `name`, `position`, and `salary`.
-     - `EmployeeManagementSystem`: Handles employee record management and operations.
-   - **Data Structure**: Array for storing employee records.
-
-5. **Task Management System**
-   - **Description**: Manages tasks using a singly linked list with functionalities to add, search, traverse, and delete tasks.
-   - **Key Classes**:
-     - `Task`: Represents individual tasks with attributes like `taskId`, `taskName`, and `status`.
-     - `TaskLinkedList`: Implements a singly linked list for managing tasks.
-   - **Data Structure**: Singly Linked List for dynamic task management.
-
-6. **Financial Forecasting Tool**
-   - **Description**: Predicts future values based on past data using a recursive approach to calculate future value.
-   - **Key Classes**:
-     - `FinancialForecastingTool`: Provides methods for calculating future values using recursion and iterative approaches.
-   - **Algorithm**: Recursive algorithm for future value calculation.
-
-## Running the Projects
-
-1. **Compile the Java Files**: Use the following command to compile the Java files:
-   ```bash
-   javac *.java
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/yourusername/your-repository.git
    ```
 
-2. **Run the Main Class**: Execute the main class for each project using the following command:
-   ```bash
-   java MainClassName
+2. **Navigate to the Desired Week**:
    ```
-   Replace `MainClassName` with the appropriate main class for the project you want to run (e.g., `Inventory`, `BookSearchSystem`, `OrderManagementSystem`, `EmployeeManagementSystem`, `TaskManagementSystem`, `FinancialForecastingTool`).
+   cd your-repository/Week1
+   ```
 
-## Instructions
+3. **Compile and Run Programs**:
+   ```
+   javac Program1.java
+   java Program1
+   ```
 
-- Ensure you have the Java Development Kit (JDK) installed on your system.
-- Extract the ZIP file and navigate to the project directory.
-- Follow the compilation and execution steps provided above.
+## Contribution Guidelines
 
-## Analysis and Results
-
-**Inventory Management System**: Compares sorting algorithms and discusses performance.
-**Search Algorithms**: Analyzes linear and binary search algorithms.
-**Order Sorting System**: Compares sorting algorithms for performance.
-**Employee Management System**: Discusses array usage and performance.
-**Task Management System**: Explains linked lists and their advantages over arrays.
-**Financial Forecasting Tool**: Analyzes recursion and optimization strategies.
+If you would like to contribute to this repository, please follow these guidelines:
+- **Fork the Repository**: Create a personal copy of the repository on GitHub.
+- **Make Changes**: Add new programs or update existing ones.
+- **Submit a Pull Request**: Provide a clear description of your changes.
