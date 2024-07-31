@@ -18,12 +18,12 @@ The repository is organized into weekly uploads, with each week containing Java 
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/gowriswethags/Java-FSE-SuperSetId-5018551
    ```
 
 2. **Navigate to the Desired Week**:
    ```
-   cd your-repository/Week1
+   cd Java-FSE-SuperSetId-5018551/Week1
    ```
 
 3. **Compile and Run Programs**:
